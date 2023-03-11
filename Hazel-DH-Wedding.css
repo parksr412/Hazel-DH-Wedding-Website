@@ -1,0 +1,250 @@
+body{
+
+    background: #F7F2EB;
+    /* background: #F3F2F0; */
+    margin: 0 auto;
+
+}
+
+.nav{
+    grid-column: 15 / span 1;
+    grid-row: 1 / span 1;
+    margin-top: 30px;
+}
+
+.button{
+    display: grid;
+    width: 70px;
+    cursor: pointer;
+    background-color: #193921;
+    color: white;
+    font-family: "Cormorant";
+    font-size: 22px;
+    border: none;
+    border-radius: 24px;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.button:hover{
+    background-color: #2F6A3F;
+    color: white;
+}
+
+.gallery{
+    display: grid;
+    grid-template-columns: repeat(17, minmax(0, 1fr));
+    grid-template-rows: repeat(14, 50px);
+    gap: 5px;
+}
+
+.icon{
+    width: 200px;
+    height: 200px;
+}
+
+.icon-music{
+    width: 210px;
+    height: 210px;
+}
+
+.icon-gift{
+    width: 185px;
+    height: 185px;
+}
+
+.icon-photo{
+    width: 185px;
+    height: 185px;
+}
+
+
+.gallery-event{
+    grid-column: 3 / span 1;
+    grid-row: 3 / span 1;
+    display: grid;
+    align-items: center;
+    padding-left: 30px;
+
+}
+
+.gallery-event a{
+    text-decoration: none;
+    color: #00370B;
+}
+.event-text{
+    grid-column: 4 / span 1;
+    grid-row: 5 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 40px;
+    font-family: "Cormorant";
+    font-size: 30px;
+    color: #193921;
+    font-weight: bold;
+}
+
+
+.gallery-music{
+    grid-column: 3 / span 1;
+    grid-row: 10 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 15px;
+    padding-left: 35px;
+}
+
+.gallery-music a{
+    text-decoration: none;
+    color: #AB45B8;
+}
+
+.music-text{
+    grid-column: 4 / span 1;
+    grid-row: 13 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 30px;
+    padding-left: 15px;
+    font-family: "Cormorant";
+    font-size: 30px;
+    color: #193921;
+    font-weight: bold;
+
+}
+
+
+
+.gallery-gift{
+    grid-column: 2 / span 1;
+    grid-row: 7 / span 1;
+    display: grid;
+    align-items: center;
+    padding-left: 55px;
+}
+
+.gallery-gift a{
+    text-decoration: none;
+    color: #00370B;
+}
+
+.gift-text{
+    grid-column: 3 / span 1;
+    grid-row: 9 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 10px;
+    padding-right: 45px;
+    font-family: "Cormorant";
+    font-size: 30px;
+    color: #193921;
+    font-weight: bold;
+
+}
+
+.gallery-headshot{
+    display: grid;
+    align-items: center;
+    grid-column: 6 / span 1;
+    grid-row: 3 / span 1;
+
+}
+
+.gallery-headshot img{
+    display: grid;
+    align-items: center;
+    border-radius: 50%;
+    width: 600px;
+    height: 600px;
+}
+
+
+.title{
+    grid-column: 4 / span 10;
+    grid-row: 1 / span 1;
+    position: relative;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+
+}
+
+.title h1{
+    /* font-family: "Josefin Sans"; */
+    font-family: "Qwitcher Grypen";
+    /* font-family: "Cormorant"; */
+    font-size: 170px;
+    color: #193921;
+    padding-right: 80px;
+
+}
+
+
+
+.gallery-photo{
+    grid-column: 11 / span 1;
+    grid-row: 11 / span 1;
+    display: grid;
+    align-items: center;
+    padding-left: 45px;
+}
+
+.gallery-photo a{
+    text-decoration: none;
+    color: #00370B;
+}
+
+.photo-text{
+    grid-column: 12 / span 1;
+    grid-row: 13 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 30px;
+    font-family: "Cormorant";
+    font-size: 30px;
+    color: #193921;
+    font-weight: bold;
+}
+
+.gallery-potluck{
+    grid-column: 11 / span 1;
+    grid-row: 3 / span 1;
+    display: grid;
+    align-items: center;
+    padding-left: 35px;
+}
+
+.gallery-potluck a{
+    text-decoration: none;
+    color: #00370B;
+}
+
+.potluck-text{
+    grid-column: 12 / span 1;
+    grid-row: 5 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 65px;
+    font-family: "Cormorant";
+    color: #193921;
+    font-size: 30px;
+    font-weight: bold;
+
+}
+
+.date {
+    grid-column: 8 / span 1;
+    grid-row: 13 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 50px;
+}
+
+.date h2{
+    font-family: "Cormorant";
+    font-size: 35px;
+    color: #193921;
+    font-weight: bold;
+}
