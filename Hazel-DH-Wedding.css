@@ -172,11 +172,10 @@ body{
 }
 
 .title h1{
-    /* font-family: "Josefin Sans"; */
-    font-family: "Qwitcher Grypen";
-    /* font-family: "Cormorant"; */
+    font-family: "Qwitcher Grypen", sans-serif;
     font-size: 170px;
-    color: #193921;
+    /* color: #193921; */
+    color: pink;
     padding-right: 80px;
 
 }
