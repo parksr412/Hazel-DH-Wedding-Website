@@ -3,11 +3,13 @@ body{
     background: #F7F2EB;
     /* background: #F3F2F0; */
     margin: 0 auto;
-
+    /* visibility: hidden; */
 }
 
+
+
 .nav{
-    grid-column: 15 / span 1;
+    grid-column: 16 / span 1;
     grid-row: 1 / span 1;
     margin-top: 30px;
 }
@@ -73,17 +75,17 @@ body{
     text-decoration: none;
     color: #00370B;
 }
+
 .event-text{
-    grid-column: 4 / span 1;
-    grid-row: 5 / span 1;
     display: grid;
-    align-items: center;
-    padding-top: 40px;
+    justify-content: center;
     font-family: "Cormorant";
-    font-size: 30px;
-    color: #193921;
     font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    margin-top: -25px;
 }
+
 
 
 .gallery-music{
@@ -97,21 +99,17 @@ body{
 
 .gallery-music a{
     text-decoration: none;
-    color: #AB45B8;
+    color: #00370B;;
 }
 
 .music-text{
-    grid-column: 4 / span 1;
-    grid-row: 13 / span 1;
     display: grid;
-    align-items: center;
-    padding-top: 30px;
-    padding-left: 15px;
+    justify-content: center;
     font-family: "Cormorant";
-    font-size: 30px;
-    color: #193921;
     font-weight: bold;
-
+    font-size: 36px;
+    margin: 0;
+    margin-top: -8px;
 }
 
 
@@ -130,17 +128,14 @@ body{
 }
 
 .gift-text{
-    grid-column: 3 / span 1;
-    grid-row: 9 / span 1;
     display: grid;
-    align-items: center;
-    padding-top: 10px;
-    padding-right: 45px;
+    justify-content: center;
     font-family: "Cormorant";
-    font-size: 30px;
-    color: #193921;
     font-weight: bold;
-
+    font-size: 36px;
+    margin: 0;
+    margin-top: -36px;
+    margin-right: 59px;
 }
 
 .gallery-headshot{
@@ -161,7 +156,7 @@ body{
 
 
 .title{
-    grid-column: 4 / span 10;
+    grid-column: 5 / span 10;
     grid-row: 1 / span 1;
     position: relative;
     align-items: center;
@@ -172,22 +167,22 @@ body{
 }
 
 .title h1{
-    font-family: "Qwitcher Grypen", sans-serif;
-    font-size: 170px;
-    /* color: #193921; */
-    color: pink;
-    padding-right: 80px;
+    font-family: "Satisfy", sans-serif;
+    font-size: 86px;
+    color: #E6C76D;
+    padding-right: 50px;
+    padding-bottom: 41px;
 
 }
 
 
 
 .gallery-photo{
-    grid-column: 11 / span 1;
+    grid-column: 13 / span 1;
     grid-row: 11 / span 1;
     display: grid;
     align-items: center;
-    padding-left: 45px;
+    padding-left: 17px;
 }
 
 .gallery-photo a{
@@ -196,23 +191,21 @@ body{
 }
 
 .photo-text{
-    grid-column: 12 / span 1;
-    grid-row: 13 / span 1;
     display: grid;
-    align-items: center;
-    padding-top: 30px;
+    justify-content: center;
     font-family: "Cormorant";
-    font-size: 30px;
-    color: #193921;
     font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    margin-top: -8px;
 }
 
 .gallery-potluck{
-    grid-column: 11 / span 1;
+    grid-column: 13 / span 1;
     grid-row: 3 / span 1;
     display: grid;
     align-items: center;
-    padding-left: 35px;
+    padding-left: 17px;
 }
 
 .gallery-potluck a{
@@ -221,24 +214,22 @@ body{
 }
 
 .potluck-text{
-    grid-column: 12 / span 1;
-    grid-row: 5 / span 1;
     display: grid;
-    align-items: center;
-    padding-top: 65px;
+    justify-content: center;
     font-family: "Cormorant";
-    color: #193921;
-    font-size: 30px;
     font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    margin-top: -8px;
 
 }
 
 .date {
-    grid-column: 8 / span 1;
+    grid-column: 9 / span 1;
     grid-row: 13 / span 1;
     display: grid;
     align-items: center;
-    padding-top: 50px;
+    padding-top: 25px;
 }
 
 .date h2{
@@ -246,4 +237,30 @@ body{
     font-size: 35px;
     color: #193921;
     font-weight: bold;
+    padding-right: 30px;
+
+}
+
+.gallery-travel{
+    grid-column: 14 / span 1;
+    grid-row: 7 / span 1;
+    display: grid;
+    align-items: center;
+    padding-top: 10px;
+
+}
+
+.gallery-travel a{
+    text-decoration: none;
+    color: #00370B;
+}
+
+.travel-text{
+    display: grid;
+    justify-content: center;
+    font-family: "Cormorant";
+    font-weight: bold;
+    font-size: 36px;
+    margin: 0;
+    margin-top: -8px;
 }
